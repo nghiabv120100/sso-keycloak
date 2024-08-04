@@ -1,0 +1,12 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: sbkcdemoclient
+            client-secret: 58X91NUT97yrCxkMib63fiqr0Edesb75
+            scope: openid+profile+email
+        provider:
+          keycloak:
+            issuer-uri: https://lemur-2.cloud-iam.com/auth/realms/nghbui-kc
